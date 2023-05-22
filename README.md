@@ -2,7 +2,7 @@
 
 # Maintained Fork
 
-The maintained version of these environments, which includenumerous fixes, comprehensive documentation, support for installation via pip, and support for current versions of Python are available in PettingZoo (https://github.com/Farama-Foundation/PettingZoo , https://pettingzoo.farama.org/environments/mpe/)
+This is a maintained fork of [openai/multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs), which satisfies the latest `gym`.
 
 # Multi-Agent Particle Environment
 
@@ -15,8 +15,6 @@ Used in the paper [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive En
 
 - To interactively view moving to landmark scenario (see others in ./scenarios/):
 `bin/interactive.py --scenario simple.py`
-
-- Known dependencies: Python (3.5.4), OpenAI gym (0.10.5), numpy (1.14.5), pyglet (1.5.27)
 
 - To use the environments, look at the code for importing them in `make_env.py`.
 
